@@ -9,12 +9,17 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
+ '(blink-cursor-mode nil)
  '(column-number-mode t)
+ '(cua-mode nil nil (cua-base))
  '(custom-enabled-themes (quote (tango-dark)))
  '(custom-safe-themes
    (quote
     ("084fb2f46f170f79b68db062e7d47df904739e4846bf4cea742dbf66ceef672a" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" "943bff6eada8e1796f8192a7124c1129d6ff9fbd1a0aed7b57ad2bf14201fdd4" default)))
  '(fci-rule-color "#383838")
+ '(menu-bar-mode nil)
+ '(mouse-wheel-mode nil)
+ '(show-paren-mode t)
  '(tool-bar-mode nil)
  '(vc-annotate-background "#2B2B2B")
  '(vc-annotate-color-map
@@ -43,4 +48,5 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#3F3F3F" :foreground "#DCDCCC" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Menlo")))))
+ '(default ((t (:inherit nil :stipple nil :background "#3F3F3F" :foreground "#DCDCCC" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Menlo"))))
+ '(header-line ((t (:inherit mode-line :background "grey20" :foreground "grey90" :box nil)))))
