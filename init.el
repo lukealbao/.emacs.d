@@ -65,9 +65,6 @@
 (require 'comment-box)
 (require 'setup-keys)
 
-;; TODO(require 'setup-bash)
-;; Doesn't work: (require 'sx-load)
-
 (global-set-key (kbd "C-x C-c") nil)
 
 ;; avy-mode
@@ -78,3 +75,6 @@
 
 ;; js defaults
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+
+;; Default files to open
+(mapc 'find-file org-agenda-files)
