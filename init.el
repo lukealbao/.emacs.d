@@ -42,6 +42,9 @@
 (let ((default-directory settings-dir))
   (normal-top-level-add-subdirs-to-load-path))
 
+;; Global scope
+(load (expand-file-name "globals.el" settings-dir))
+
 ;; https://github.com/technomancy/better-defaults
 (setq technomancy-defaults
       (expand-file-name "better-defaults.el" packages-dir))
