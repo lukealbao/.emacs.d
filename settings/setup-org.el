@@ -1,5 +1,12 @@
 ;;; Custom setup for org
 
+;; Agenda
+(setf org-agenda-files
+      (mapcar 'eval
+              '((expand-file-name "personal.org" personal-dir)
+                (expand-file-name "home.org" personal-dir)
+                (expand-file-name "org/todo.org" work-dir))))
+
 ;; Multi-state todos
 (setq org-todo-keywords
       '((sequence "TODO" "FOLLOWUP" "|" "DONE" "WAITING")))

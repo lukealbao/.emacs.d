@@ -30,9 +30,6 @@
  '(linum-format " %6d ")
  '(main-line-color1 "#222232")
  '(main-line-color2 "#333343")
- '(org-agenda-files
-   (quote
-    ("~/Documents/personaldev/personal.org" "~/Documents/fpdev/org/personal/home.org" "~/Documents/fpdev/org/todo.org")))
  '(org-babel-load-languages (quote ((sh . t) (python . t) (ruby . t) (js . t) (C . t))))
  '(org-emphasis-alist
    (quote
