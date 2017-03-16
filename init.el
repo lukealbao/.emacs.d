@@ -14,6 +14,8 @@
       (expand-file-name "elpa" user-emacs-directory))
 (setq settings-dir
        (expand-file-name "settings" user-emacs-directory))
+(setq user-elisp-dir
+       (expand-file-name "elisp" user-emacs-directory))
 
 ;; packages
 (add-to-list 'load-path packages-dir)
@@ -42,6 +44,9 @@
 (let ((default-directory settings-dir))
   (normal-top-level-add-subdirs-to-load-path))
 
+;; My elisp
+(add-to-list 'load-path user-elisp-dir)
+
 ;; Global scope
 (load (expand-file-name "globals.el" settings-dir))
 
@@ -64,6 +69,7 @@
 (require 'setup-markdown)
 (require 'comment-box)
 (require 'setup-keys)
+(require 'hacks)
 
 (global-set-key (kbd "C-x C-c") nil)
 
