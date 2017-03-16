@@ -78,3 +78,4 @@
 
 ;; Default files to open
 (mapc 'find-file org-agenda-files)
+(shell)
