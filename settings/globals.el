@@ -6,4 +6,9 @@
 (defvar personal-dir
   (expand-file-name "personaldev" home-dir))
 
+;; Environment
+(setenv "PATH"
+        (concat "/usr/local/bin:"
+                (getenv "PATH")))
+
 (provide 'luke-globals)
