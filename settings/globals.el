@@ -9,6 +9,7 @@
 ;; Environment
 (setenv "PATH"
         (concat "/usr/local/bin:"
+                "/usr/bin:"
                 (getenv "PATH")))
 
 (provide 'luke-globals)
