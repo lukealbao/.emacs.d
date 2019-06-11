@@ -1,0 +1,451 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/lukealbao/.emacs.d/" . "my-modes/")
+ ("/Users/lukealbao/" . ".emacs.d/")
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/node_modules/processor-specs/" . "specs/")
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/node_modules/" . "processor-specs/")
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/" . "parser/")
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/fisb/" . "encoderGateway/")
+ ("/Users/firstperformance/Documents/fpdev/sandbox/node_modules/" . "bcd/")
+ ("/Users/firstperformance/Documents/fpdev/sandbox/" . "node_modules/")
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/flow-bin/" . "flow-osx-v0.52.0/")
+ ("/Users/firstperformance/Documents/personaldev/staq/archive/" . "test/")
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava/lib/" . "reporters/")
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava/" . "lib/")
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava-spec/" . "lib/")
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/" . "flow-bin/")
+ ("/Users/firstperformance/Documents/personaldev/staq/" . "flow-typed/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/bunyan/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/test/" . "buffers/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/lib/dialects/" . "mssql/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/lib/" . "dialects/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/benchmark/firehose/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/benchmark/" . "firehose/")
+ ("/Users/firstperformance/Documents/personaldev/layz/" . "src/")
+ ("/Users/firstperformance/Documents/personaldev/search/adhoc/submission/" . "proto/")
+ ("/Users/firstperformance/Documents/fpdev/data-models/test/" . "fixtures/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/encoder-gateway/test/" . "fixtures/")
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/" . "specs/")
+ ("/Users/firstperformance/Documents/personaldev/generators-problem/" . "src/")
+ ("/Users/firstperformance/Documents/personaldev/take/" . "test/")
+ ("/Users/firstperformance/Documents/personaldev/my-lazy/src/" . "lib/")
+ ("/Users/firstperformance/Documents/personaldev/my-lazy/dist/" . "lib/")
+ ("/Users/firstperformance/Documents/personaldev/my-lazy/" . "src/")
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/fixtures/" . "specs/")
+ ("/Users/firstperformance/Documents/personaldev/pi/node_modules/hasharray/" . "src/")
+ ("/Users/firstperformance/Documents/personaldev/pi/node_modules/" . "hasharray/")
+ ("/Users/firstperformance/Documents/personaldev/pi/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/node_modules/sequelize/lib/dialects/" . "mssql/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/node_modules/sequelize/lib/" . "dialects/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/node_modules/sequelize/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/data-models/.git/" . "hooks/")
+ ("/Users/firstperformance/Documents/fpdev/nexus/eg/node_modules/encoder-gateway/node_modules/" . "parser/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/node_modules/oracledb/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/node-oracledb/" . "examples/")
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/node_modules/chalk/node_modules/" . "ansi-styles/")
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/node_modules/chalk/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/node_modules/" . "parser/")
+ ("/Applications/Emacs.app/Contents/Resources/" . "lisp/")
+ ("/Applications/Emacs.app/Contents/MacOS/" . "bin-x86_64-10_9/")
+ ("/Applications/Emacs.app/Contents/" . "Resources/")
+ ("/Applications/Emacs.app/" . "Contents/")
+ ("/Applications/" . "Emacs.app/")
+ ("/Users/firstperformance/Documents/personaldev/VideoBooth/public/" . "javascripts/")
+ ("/Users/firstperformance/Documents/personaldev/VideoBooth/" . "public/")
+ ("/Users/firstperformance/Documents/personaldev/search/adhoc/homework/proto/" . "solution/")
+ ("/Users/firstperformance/Documents/personaldev/search/adhoc/homework/" . "proto/")
+ ("/Users/firstperformance/Documents/personaldev/search/adhoc/" . "qpp-sources/")
+ ("/Users/firstperformance/Documents/personaldev/search/" . "adhoc/")
+ ("/Users/firstperformance/Documents/fpdev/batch-cancel/test/" . "unit/")
+ ("/Users/firstperformance/Documents/fpdev/trash/source/" . "config/")
+ ("/Users/firstperformance/Documents/fpdev/trash/" . "source/")
+ ("/Users/firstperformance/.npm/" . "_logs/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/dist/" . "config/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/tools/" . "db/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/esprima/" . "dist/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/dist/node_modules/encoder-gateway/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/dist/node_modules/" . "encoder-gateway/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/dist/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/nock/node_modules/changelog/" . "examples/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/nock/node_modules/" . "changelog/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/nock/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/tools/" . "db/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/esprima/" . "dist/")
+ ("/Users/firstperformance/Documents/personaldev/react-native-audio-toolkit/ExampleApp/ios/" . "ExampleApp/")
+ ("/Users/firstperformance/Documents/personaldev/react-native-audio-toolkit/ExampleApp/" . "ios/")
+ ("/Users/firstperformance/Documents/personaldev/react-native-audio-toolkit/" . "ExampleApp/")
+ ("/Users/firstperformance/Documents/fpdev/org/regions/" . "sample-messages/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/encoder-gateway/node_modules/" . "parser/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/test/" . "buffers/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/encoder-gateway/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/node_modules/" . "encoder-gateway/")
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/" . "specs/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/node_modules/data-models/" . "models/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/node_modules/" . "data-models/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/express-validator/node_modules/" . "validator/")
+ ("/Users/firstperformance/Documents/fpdev/batch-cancel/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/bunyan/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/parser/test/" . "fixtures/")
+ ("/Users/firstperformance/Documents/fpdev/parser/" . "test/")
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/node_modules/encoder-gateway/node_modules/" . "parser/")
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/node_modules/encoder-gateway/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/node_modules/" . "encoder-gateway/")
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/test/" . "fixtures/")
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/" . "specs/")
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/eg-boilerplate/" . "handlers/")
+ ("/Users/firstperformance/Documents/personaldev/testdouble/geohashing-exercise/" . "test/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/express-validator/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/sequelize/lib/" . "model/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/data-models/" . "models/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/fauxrm/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/" . "sequelize/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/fauxrm/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/test/" . "fixtures/")
+ ("/Users/firstperformance/Documents/personaldev/testdouble/kata-ocr/" . "bin/")
+ ("/Users/firstperformance/Documents/personaldev/testdouble/numbers/node_modules/" . "mocha/")
+ ("/Users/firstperformance/Documents/personaldev/testdouble/numbers/" . "test/")
+ ("/Users/firstperformance/Documents/personaldev/testdouble/" . "geohashing-exercise/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/test/" . "oracle/")
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/" . "test/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/supertest/node_modules/superagent/lib/" . "node/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/supertest/node_modules/superagent/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/supertest/node_modules/" . "superagent/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/supertest/" . "node_modules/")
+ ("/Users/firstperformance/.emacs.d/elpa/mocha-snippets-20170103.2127/snippets/js-mode/" . "mocha/")
+ ("/Users/firstperformance/.emacs.d/elpa/mocha-snippets-20170103.2127/snippets/" . "js-mode/")
+ ("/Users/firstperformance/.emacs.d/elpa/mocha-snippets-20170103.2127/" . "snippets/")
+ ("/Users/firstperformance/.emacs.d/elpa/yasnippet-20170326.1030/snippets/" . "org-mode/")
+ ("/Users/firstperformance/.emacs.d/elpa/yasnippet-20170326.1030/" . "snippets/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/test/" . "unit/")
+ ("/var/folders/qv/1tst1csd0_q91q6jmm8kfk0r0000gp/" . "T/")
+ ("/var/folders/qv/" . "1tst1csd0_q91q6jmm8kfk0r0000gp/")
+ ("/var/folders/" . "qv/")
+ ("/var/" . "folders/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/sequelize/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/node_modules/" . "fauxrm/")
+ ("/Users/firstperformance/Documents/personaldev/discrete-math/" . "ltxpng/")
+ ("/" . "Applications/")
+ ("/Users/firstperformance/Downloads/" . "WordNet-3.0/")
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/test/" . "buffers/")
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/" . "fixtures/")
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/" . "test/")
+ ("/Users/firstperformance/.emacs.d/packages/" . "ox-anki/")
+ ("/Users/firstperformance/Documents/fpdev/de-proxy/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/org/" . "regions/")
+ ("/Users/firstperformance/Documents/personaldev/KandR/exercises/" . "src/")
+ ("/Users/firstperformance/Documents/personaldev/KandR/" . "exercises/")
+ ("/Users/firstperformance/Documents/personaldev/arena.io/" . "comparisons/")
+ ("/Users/firstperformance/Documents/fpdev/nexus/eg/node_modules/encoder-gateway/" . "lib/")
+ ("/Users/firstperformance/Documents/fpdev/nexus/eg/node_modules/" . "encoder-gateway/")
+ ("/Users/firstperformance/Documents/fpdev/nexus/eg/test/" . "buffers/")
+ ("/Users/firstperformance/Documents/fpdev/nexus/eg/" . "specs/")
+ ("/Users/firstperformance/Documents/fpdev/nexus/" . "eg/")
+ ("/Users/firstperformance/Documents/fpdev/flbl/eg/" . "handlers/")
+ ("/Users/firstperformance/Documents/fpdev/flbl/" . "eg/")
+ ("/Users/firstperformance/Documents/fpdev/circuit-breaker/" . "test/")
+ ("/Users/firstperformance/Documents/fpdev/tweedle-dum/" . "test/")
+ ("/Users/firstperformance/Documents/fpdev/evertec/" . "eg/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/sequelize/lib/dialects/" . "mysql/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/sequelize/lib/" . "dialects/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/sequelize/" . "lib/")
+ ("/Users/firstperformance/Documents/personaldev/" . "staq/")
+ ("/Users/firstperformance/.emacs.d/var/" . "pcache/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/data-models/" . "models/")
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/" . "lodash/")
+ ("/Users/firstperformance/.emacs.d/themes/" . "leuven-theme-20170218.357/")
+ ("/Users/firstperformance/Documents/fpdev/washington/test/" . "unit/")
+ ("/Users/firstperformance/Documents/fpdev/washington/" . "node_modules/")
+ ("/Users/firstperformance/Documents/fpdev/data-models/" . "models/")
+ ("/Users/" . "firstperformance/")
+ ("/Users/firstperformance/.emacs.d/elpa/" . "jsx-mode-20130908.1024/")
+ ("/Users/firstperformance/Documents/fpdev/processor-specs/" . "specs/")
+ ("/Users/firstperformance/Documents/fpdev/corecard/" . "lib/")
+ ("/Users/firstperformance/.emacs.new/" . "elpa/")
+ ("/Users/firstperformance/.emacs.og/elpa/" . "leuven-theme-20170218.357/")
+ ("/Users/firstperformance/Documents/fpdev/" . "fisb/")
+ ("/Users/firstperformance/Documents/" . "fpdev/")
+ ("/Users/firstperformance/.emacs.og/" . "elpa/")
+ ("/Users/firstperformance/.emacs.d/" . "settings/")
+ ("/Users/firstperformance/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/lukealbao/.emacs.d/my-modes/"
+ "/Users/firstperformance/Documents/personaldev/staq/"
+ "/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/node_modules/processor-specs/specs/"
+ "/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/lib/"
+ "/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/"
+ "/Users/firstperformance/Documents/fpdev/parser/"
+ "/Users/firstperformance/Documents/fpdev/sandbox/node_modules/bcd/"
+ "/Users/firstperformance/Documents/fpdev/serializer/"
+ "/Users/firstperformance/Documents/personaldev/staq/flow-typed/"
+ "/Users/firstperformance/Documents/personaldev/staq/lib/"
+ "/Users/firstperformance/Documents/personaldev/staq/transducers/"
+ "/Users/firstperformance/Documents/personaldev/staq/test/"
+ "/Users/firstperformance/Documents/personaldev/staq/sinks/"
+ "/Users/firstperformance/Documents/personaldev/layz/src/"
+ "/Users/firstperformance/Documents/personaldev/staq/sources/"
+ "/Users/firstperformance/Documents/personaldev/staq/node_modules/flow-bin/flow-osx-v0.52.0/"
+ "/Users/firstperformance/Documents/personaldev/layz/"
+ "/Users/firstperformance/Documents/personaldev/my-lazy/"
+ "/Users/firstperformance/Documents/personaldev/iterall/"
+ "/Users/firstperformance/Documents/personaldev/staq/node_modules/awa/"
+ "/Users/firstperformance/Documents/personaldev/docs/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/test/unit/"
+ "/Users/firstperformance/Documents/personaldev/staq/archive/test/"
+ "/Users/firstperformance/Documents/personaldev/staq/node_modules/ava/lib/reporters/"
+ "/Users/firstperformance/Documents/personaldev/staq/node_modules/ava-spec/lib/"
+ "/Users/firstperformance/Documents/personaldev/staq/sequencers/"
+ "/Users/firstperformance/Documents/fpdev/washington/node_modules/lodash/"
+ "/Users/firstperformance/Documents/fpdev/washington/node_modules/bluebird/"
+ "/Users/firstperformance/Documents/fpdev/washington/node_modules/bunyan/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/lib/"
+ "/Users/firstperformance/Documents/fpdev/eg-boilerplate/"
+ "/Users/firstperformance/Documents/fpdev/eg-boilerplate/handlers/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/"
+ "/Users/firstperformance/Documents/fpdev/parser/test/fixtures/"
+ "/Users/firstperformance/Documents/fpdev/parser/test/"
+ "/Users/firstperformance/Documents/fpdev/eg-boilerplate/common/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/node_modules/parser/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/test/fixtures/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/bin/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/test/fixtures/specs/"
+ "/Users/firstperformance/Documents/fpdev/encoder-gateway/test/benchmark/"
+ "/Users/firstperformance/Documents/fpdev/benchmark/firehose/lib/"
+ "/Users/firstperformance/Documents/fpdev/benchmark/firehose/"
+ "/Users/firstperformance/Documents/fpdev/eg-boilerplate/specs/"
+ "/Users/firstperformance/Documents/fpdev/flbl-eg/specs/"
+ "/Users/firstperformance/Documents/personaldev/staq/reducers/"
+ "/Users/firstperformance/Documents/fpdev/washington/node_modules/bunyan/lib/"
+ "/Users/firstperformance/Documents/personaldev/layz/dist/"
+ "/Users/firstperformance/Documents/personaldev/lazy-sequence/"
+ "/Users/firstperformance/Documents/fpdev/nexus-eg/specs/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "tutorial.el"
+ ".flowconfig"
+ "visa-spec.js"
+ "Worker.js"
+ "config.js"
+ "index.js"
+ "package.json"
+ "composer-type.js.flow"
+ "composer-typegen.js"
+ "compose.js.flow"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/lukealbao/.emacs.d/my-modes/" (22933 38568 0 0) "tutorial.el" "../" "./")
+
+ ("/Users/lukealbao/.emacs.d/" (22933 38818 0 0) "var/" "url/" "themes/" "snippets/" "settings/" "recentf" "places" "packages/" "my-modes/" "init.el" "ido.last" "flow-for-emacs/" "eshell/" "elpa/" "elisp/" "custom.el" "bookmarks" "backups/" "auto-save-list/" ".gitignore" ".git/" ".DS_Store" "#ido.last#" "../" "./")
+
+ ("/Users/lukealbao/" (22933 38657 0 0) "zip.js~" "zip.js" "websockets.js~" "websockets.js" "stdin.txt" "secretz.js~" "secretz.js" "reduxDuplexer.js~" "reduxDuplexer.js" "Public/" "program.js~" "program.js" "pretty.js" "poop.txt" "Pictures/" "package.json" "org/" "node_modules/" "News/" "Music/" "Movies/" "Library/" "httpServer.js~" "httpServer.js" "htmlStream.js~" "htmlStream.js" "farting.txt" "fart.txt" "error.log" "duplexer.js~" "duplexer.js" "dump.rdb" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "dev" "Desktop/" "crypto.js" "config" "concat.js~" "concat.js" "combiner.js~" "combiner.js" "cd" "cat" "Applications/" "allovue/" "access.log" "2httpServer.js~" "2httpServer.js" ".zshrc" ".yarnrc" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".rnd" ".rediscli_history" ".rbenv/" ".psql_history" ".pry_history" ".oracle_jre_usage/" ".nvm/" ".npmrc" ".npm/" ".notes" ".node_repl_history" ".node-gyp/" ".newsrc-dribble" ".mysql_history" ".mongorc.js" ".local/" ".lesshst" ".learnuv/" ".gitconfig" ".gem/" ".emacs.d/" ".elasticbeanstalk/" ".dvdcss/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc~" ".bashrc" ".bash_sessions/" ".bash_prompt" ".bash_profile" ".bash_history" ".babel.json" ".aws/" ".aliases" ".#speech.js" "#speech.js#" "#asdfasf#" "#.notes#" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/" (22924 35903 0 0) "transducers/" "test/" "src/" "sources/" "sinks/" "package.json" "node_modules/" "lib/" "flow-typed/" "dist/" "coverage/" "composer-typegen.js" "archive/" ".nyc_output/" ".gitignore" ".git/" ".flowconfig" ".eslintrc.js" ".eslintignore" ".DS_Store" ".babelrc" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/node_modules/processor-specs/specs/" (22232 36933 0 0) "visa-spec.js" "unified-payments-spec.js" "template.js" "tecban-spec.js" "network-management-spec.js" "mastercard-spec.js" "evertec-transerver-spec.js" "elo-spec.js" "cencosud-spec.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/node_modules/processor-specs/" (22232 36710 0 0) "validate.js" "util/" "specs/" "README.md" "package.json" "node_modules/" "index.js" ".npmignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/node_modules/" (22232 36712 0 0) "processor-specs/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/parser/" (22232 36710 0 0) "test/" "README.md" "package.json" "node_modules/" "lib/" "index.js" ".npmignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/node_modules/" (22232 36709 0 0) "sinon/" "serializer/" "rewire/" "request-promise/" "processor-specs/" "parser/" "node-inspector/" "nock/" "heapdump/" "framer/" "chai/" "bunyan/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/lib/" (22492 22017 0 0) "Worker.js" "log-serializers.js" "index.js" "Gateway.js" "errors.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/encoderGateway/" (22452 26581 0 0) "test/" "package.json" "node_modules/" "log/" "lib/" "index.js" "how-to-test.org" "coverage/" "config.js" ".gitignore" ".git/" ".ebextensions/" ".buildignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fisb/" (22416 54484 0 0) "encoderGateway/" "decision-engine-fisb/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/sandbox/node_modules/bcd/" (22924 33838 0 0) "test.js" "README.md" "package.json" "index.js" "benchmark.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/sandbox/node_modules/" (22924 33838 0 0) "xtend/" "verror/" "uuid/" "tweetnacl/" "tunnel-agent/" "tough-cookie/" "supports-color/" "strip-ansi/" "stringstream/" "stealthy-require/" "sshpk/" "sntp/" "request-promise-core/" "request-promise/" "request/" "qs/" "punycode/" "pinkie-promise/" "pinkie/" "oauth-sign/" "mime-types/" "mime-db/" "lodash/" "jsprim/" "jsonpointer/" "json-stringify-safe/" "json-schema/" "jsbn/" "jodid25519/" "isstream/" "is-typedarray/" "is-property/" "is-my-json-valid/" "http-signature/" "hoek/" "hawk/" "has-ansi/" "har-validator/" "graceful-readlink/" "getpass/" "generate-object-property/" "generate-function/" "form-data/" "forever-agent/" "extsprintf/" "extend/" "escape-string-regexp/" "ecc-jsbn/" "delayed-stream/" "dashdash/" "cryptiles/" "commander/" "combined-stream/" "chalk/" "caseless/" "boom/" "bluebird/" "bcrypt-pbkdf/" "bcd/" "aws4/" "aws-sign2/" "asynckit/" "assert-plus/" "asn1/" "ansi-styles/" "ansi-regex/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/sandbox/" (22907 19351 0 0) "web-speech-api/" "watcher/" "washington/" "timeout-vs-immediate.js" "tables/" "stream/" "stdout.py" "socket-errors/" "sockend.js" "secret.txt.enc" "secret.txt" "rustup.sh" "run.sh" "replclient.js" "repl.js" "pulls-to-org.js" "portscan.old.log" "portscan.log" "portscan.js" "poo/" "plugins/" "package.json" "ormsandbox/" "numbers.txt" "node_modules/" "next-tick.js" "next-tick/" "netserver.js" "netclient.js" "missfont.log" "Makefile" "ltxpng/" "latex.org" "latex/" "issue.org" "iraq.js" "integers.txt" "hoist.js" "hex.txt" "hapi-login-test/" "git-2.10.1.tar.gz" "git-2.10.1/" "failnode/" "express-validator/" "evertec-eg/" "errors.js" "envs.sh" "enum/" "drain.js" "download112505.zip.1" "download112505.zip" "dom-traversal.html" "decodedsecrets" "darktheme/" "bufferoverflow.js" "bitmap.js" "b64" "anki-export.txt" "addon/" "a.out" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/serializer/" (22388 12833 0 0) "test/" "README.md" "package.json" "node_modules/" "lib/" "index.js" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/firstperformance/Documents/" (22924 25596 0 0) "wedding.org" "wedding/" "WebEx/" "systems/" "raw-layout.tiff" "ProgrammingPearls/" "personaldev/" "Parking Ticket Receipt Dec-2015.pdf" "MuseScore2/" "Méthode_complète_de_trompette_moderne_[...]Franquin_Merri_bpt6k311006c.pdf" "Luke Dianne Rehearsal Recipes.pdf" "Hot Cheetos and Fosses.mp4" "fpdev/" "FP Paperwork/" "FP Expenses/" "Foundations of Data Science.pdf" "EG Walkthrough Episode 2.mov" "EG Walkthrough Episode 1.mov" "EG Implementation Videos/" "CodingTheMatrix/" "Charmscapes Contract.pdf" "Calibre/" "blerg/" "Baltimore City Water Bill June-2017.pdf" "anki-org-deck-export.txt" "Anki/" "Ad Hoc Offer Letter/" "[Ben_Klemens]_Modeling_with_Data._Tools_and_Techni(BookZZ.org).pdf" "[Ben_Klemens]_21st_Century_C_C_Tips_from_the_New_(BookZZ.org).pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/flow-typed/" (22924 32463 0 0) "types.test.js" "index.js.flow" "custom.js.flow" "composer-type.js.flow" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/sources/" (22923 35701 0 0) "SlidingBuffer.js" "LazySequence.js.flow" "LazySequence.js" "DroppingBuffer.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/lib/" (22924 29332 0 0) "compose.js.flow" "compose.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/transducers/" (22923 30514 0 0) "transducer.js.flow" "transducer.js" "sequence.js" "map.js" "filter.js" "event-stream.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/test/" (22923 36884 0 0) "transducer.spec.js" "sequence.spec.js" "map.spec.js" "LazySequence.spec.js" "into.spec.js" "forEach.spec.js" "filter.spec.js" "examples.spec.js" "compose.spec.js" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/sinks/" (22923 20548 0 0) "into.js.flow" "into.js" "forEach.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/flow-bin/flow-osx-v0.52.0/" (22923 11530 0 0) "flow" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/flow-bin/" (22923 11531 0 0) "vendor/" "SHASUM256.txt" "readme.md" "package.json" "license" "index.js" "flow-win64-v0.52.0/" "flow-osx-v0.52.0/" "flow-linux64-v0.52.0/" "cli.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/" (22923 12046 0 0) "yallist/" "xtend/" "xdg-basedir/" "write-pkg/" "write-json-file/" "write-file-atomic/" "wrappy/" "widest-line/" "which/" "well-known-symbols/" "validate-npm-package-license/" "util-deprecate/" "url-parse-lax/" "update-notifier/" "unzip-response/" "unique-temp-dir/" "unique-string/" "uid2/" "trim-right/" "trim-off-newlines/" "trim-newlines/" "to-fast-properties/" "timed-out/" "time-zone/" "time-require/" "through2/" "text-table/" "term-size/" "symbol-observable/" "supports-color/" "strip-json-comments/" "strip-indent/" "strip-eof/" "strip-bom-buf/" "strip-bom/" "strip-ansi/" "string_decoder/" "string-width/" "stack-utils/" "sprintf-js/" "spdx-license-ids/" "spdx-expression-parse/" "spdx-correct/" "source-map-support/" "source-map/" "sort-keys/" "slide/" "slice-ansi/" "slash/" "signal-exit/" "shebang-regex/" "shebang-command/" "set-immediate-shim/" "semver-diff/" "semver/" "safe-buffer/" "restore-cursor/" "resolve-from/" "resolve-cwd/" "require-precompiled/" "repeating/" "repeat-string/" "repeat-element/" "remove-trailing-separator/" "release-zalgo/" "regjsparser/" "regjsgen/" "registry-url/" "registry-auth-token/" "regexpu-core/" "regex-cache/" "regenerator-runtime/" "regenerate/" "redent/" "readdirp/" "readable-stream/" "read-pkg-up/" "read-pkg/" "rc/" "randomatic/" "pseudomap/" "process-nextick-args/" "private/" "pretty-ms/" "preserve/" "prepend-http/" "plur/" "pkg-dir/" "pkg-conf/" "pinkie-promise/" "pinkie/" "pify/" "path-type/" "path-key/" "path-is-absolute/" "path-exists/" "parse-ms/" "parse-json/" "parse-glob/" "package-json/" "package-hash/" "p-locate/" "p-limit/" "p-finally/" "os-tmpdir/" "os-homedir/" "option-chain/" "onetime/" "once/" "observable-to-promise/" "object.omit/" "object-assign/" "nyc/" "number-is-nan/" "npm-run-path/" "normalize-path/" "normalize-package-data/" "nan/" "multimatch/" "ms/" "mkdirp/" "minimist/" "minimatch/" "mimic-fn/" "micromatch/" "meow/" "md5-o-matic/" "md5-hex/" "matcher/" "map-obj/" "make-dir/" "lru-cache/" "lowercase-keys/" "loud-rejection/" "loose-envify/" "lodash.merge/" "lodash.isequal/" "lodash.flattendeep/" "lodash.flatten/" "lodash.difference/" "lodash.debounce/" "lodash.clonedeepwith/" "lodash.clonedeep/" "lodash/" "locate-path/" "load-json-file/" "latest-version/" "last-line-stream/" "kind-of/" "json5/" "jsesc/" "js-yaml/" "js-tokens/" "js-string-escape/" "isobject/" "isexe/" "isarray/" "is-utf8/" "is-url/" "is-stream/" "is-retry-allowed/" "is-redirect/" "is-promise/" "is-primitive/" "is-posix-bracket/" "is-plain-obj/" "is-observable/" "is-obj/" "is-number/" "is-npm/" "is-glob/" "is-generator-fn/" "is-fullwidth-code-point/" "is-finite/" "is-extglob/" "is-extendable/" "is-error/" "is-equal-shallow/" "is-dotfile/" "is-ci/" "is-builtin-module/" "is-buffer/" "is-binary-path/" "is-arrayish/" "irregular-plurals/" "invariant/" "ini/" "inherits/" "inflight/" "indent-string/" "imurmurhash/" "import-local/" "import-lazy/" "ignore-by-default/" "hullabaloo-config-manager/" "hosted-git-info/" "home-or-tmp/" "has-yarn/" "has-flag/" "has-color/" "has-ansi/" "graceful-fs/" "got/" "globby/" "globals/" "glob-parent/" "glob-base/" "glob/" "get-stream/" "get-stdin/" "get-port/" "function-name-support/" "fsevents/" "fs.realpath/" "for-own/" "for-in/" "fn-name/" "flow-bin/" "find-up/" "find-cache-dir/" "fill-range/" "filename-regex/" "figures/" "fast-diff/" "extglob/" "expand-range/" "expand-brackets/" "execa/" "esutils/" "estraverse/" "espurify/" "esprima/" "espower-location-detector/" "escape-string-regexp/" "es6-error/" "error-ex/" "equal-length/" "empower-core/" "duplexer3/" "dot-prop/" "detect-indent/" "deep-extend/" "deep-equal/" "decamelize/" "debug/" "date-time/" "currently-unhandled/" "crypto-random-string/" "cross-spawn/" "create-error-class/" "core-util-is/" "core-js/" "core-assert/" "convert-to-spaces/" "convert-source-map/" "configstore/" "concordance/" "concat-map/" "commondir/" "common-path-prefix/" "color-name/" "color-convert/" "code-point-at/" "code-excerpt/" "co-with-promise/" "cli-truncate/" "cli-spinners/" "cli-cursor/" "cli-boxes/" "clean-yaml-object/" "clean-stack/" "ci-info/" "chokidar/" "chalk/" "capture-stack-trace/" "camelcase-keys/" "camelcase/" "call-signature/" "call-matcher/" "caching-transform/" "builtin-modules/" "buf-compare/" "braces/" "brace-expansion/" "boxen/" "bluebird/" "binary-extensions/" "balanced-match/" "babylon/" "babel-types/" "babel-traverse/" "babel-template/" "babel-runtime/" "babel-register/" "babel-plugin-transform-strict-mode/" "babel-plugin-transform-exponentiation-operator/" "babel-plugin-transform-es2015-unicode-regex/" "babel-plugin-transform-es2015-sticky-regex/" "babel-plugin-transform-es2015-spread/" "babel-plugin-transform-es2015-parameters/" "babel-plugin-transform-es2015-modules-commonjs/" "babel-plugin-transform-es2015-function-name/" "babel-plugin-transform-es2015-destructuring/" "babel-plugin-transform-async-to-generator/" "babel-plugin-syntax-trailing-function-commas/" "babel-plugin-syntax-exponentiation-operator/" "babel-plugin-syntax-async-functions/" "babel-plugin-espower/" "babel-plugin-check-es2015-constants/" "babel-messages/" "babel-helpers/" "babel-helper-remap-async-to-generator/" "babel-helper-regex/" "babel-helper-hoist-variables/" "babel-helper-get-function-arity/" "babel-helper-function-name/" "babel-helper-explode-assignable-expression/" "babel-helper-call-delegate/" "babel-helper-builder-binary-assignment-operator-visitor/" "babel-generator/" "babel-core/" "babel-code-frame/" "ava-init/" "ava/" "auto-bind/" "async-each/" "arrify/" "array-unique/" "array-uniq/" "array-union/" "array-find-index/" "array-differ/" "arr-flatten/" "arr-exclude/" "arr-diff/" "argparse/" "anymatch/" "ansi-styles/" "ansi-regex/" "ansi-escapes/" "ansi-align/" "@concordance/" "@ava/" ".DS_Store" ".cache/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava/lib/reporters/" (22923 12046 0 0) "verbose.js" "tap.js" "mini.js" "improper-usage-messages.js" "format-serialized-error.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/awa/" (22923 7353 0 0) "README.md" "package.json" "index.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/iterall/" (22923 7195 0 0) "test.js" "README.md" "package.json" "package-lock.json" "node_modules/" "LICENSE" "index.js.flow" "index.js" "index.d.ts" "coverage/" ".travis.yml" ".nyc_output/" ".gitignore" ".git/" ".flowconfig" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/" (22923 3549 0 0) "writing/" "washington/" "wants.org" "VideoBooth/" "tictac/" "testdouble.js/" "testdouble/" "take/" "sunlight/" "success-rate/" "staq/" "sous-chef/" "skiena/" "sicp/" "search/" "scratch/" "sc-challenge/" "retry/" "recordrtc-react/" "reacttraining/" "react-native-audio-toolkit/" "react-native/" "railstutorial/" "privacycode/" "privacy.jquery.js" "privacy.extension.assets.js" "poo/" "plaid.js" "plaid/" "pi/" "personal.org_archive" "personal.org" "org/" "notes/" "node-restify/" "node-might/" "node-lazy/" "node-graceful-fs/" "my-lazy/" "mongodata/" "machine-learning.org" "luke-albao-resume.md" "Luke Albao Resume 1 page.pdf" "lowlevelprogramming-university/" "linear-algebra/" "lazy-sequence/" "layz/" "KhanAcademyCoverLetter.pdf" "khan.org" "khan.js" "khan/" "KandR/" "jobs.org" "jason-privacy.com.org" "iterall/" "infection/" "home.org" "google/" "goals.org" "generators-problem/" "gashlycrumb/" "freshman.org" "foo/" "first-react/" "feature-set/" "fastai/" "f8app/" "enumerate/" "dotfiles/" "dom-practice/" "docs/" "discrete-math/" "dasgupta/" "cs107/" "cprogramming/" "coursera/" "congress-legislators/" "congress/" "coding-interview-university/" "clojure_ws/" "chrome-extension-tutorial/" "chrome/" "chores.org" "chef/" "BuildYourOwnLisp/" "btree.js" "braintree_node/" "bo-privacy.com.org" "blerg/" "awkbook/" "arena.io/" "anagrams/" "ack-api/" "500lines/" ".DS_Store" "*Org MD Export*" "#deblkajslkdfjdjlklj#" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/docs/" (22922 37653 0 0) "README.md" "package.json" "package-lock.json" "node_modules/" "index.js" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/sequencers/" (22922 13046 0 0) "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/archive/test/" (22922 12864 0 0) "mapping.test.js" "ForEach.test.js" "EventStream.test.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/archive/" (22922 12837 0 0) "test/" "lazy-sequence.js" "lazy-sequence-2.js" "index.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava/lib/" (22922 7186 0 0) "watcher.js" "validate-test.js" "test.js" "test-worker.js" "test-collection.js" "snapshot-manager.js" "serialize-error.js" "sequence.js" "runner.js" "run-status.js" "reporters/" "process-adapter.js" "prefix-title.js" "main.js" "logger.js" "globals.js" "fork.js" "extract-stack.js" "enhance-assert.js" "concurrent.js" "concordance-options.js" "colors.js" "code-excerpt.js" "cli.js" "caching-precompiler.js" "beautify-stack.js" "babel-config.js" "ava-files.js" "ava-error.js" "assert.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava/" (22922 7186 0 0) "types/" "readme.md" "profile.js" "package.json" "license" "lib/" "index.js.flow" "index.js" "cli.js" "api.js" ".iron-node.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava-spec/lib/" (22647 46400 0 0) "index.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/node_modules/ava-spec/" (22922 9269 0 0) "README.md" "package.json" "node_modules/" "LICENSE" "lib/" "CHANGELOG.md" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/lodash/" (22833 26787 0 0) "zipWith.js" "zipObjectDeep.js" "zipObject.js" "zip.js" "xorWith.js" "xorBy.js" "xor.js" "wrapperValue.js" "wrapperReverse.js" "wrapperLodash.js" "wrapperChain.js" "wrapperAt.js" "wrap.js" "words.js" "without.js" "valuesIn.js" "values.js" "valueOf.js" "value.js" "util.js" "upperFirst.js" "upperCase.js" "updateWith.js" "update.js" "unzipWith.js" "unzip.js" "unset.js" "uniqWith.js" "uniqueId.js" "uniqBy.js" "uniq.js" "unionWith.js" "unionBy.js" "union.js" "unescape.js" "unary.js" "truncate.js" "trimStart.js" "trimEnd.js" "trim.js" "transform.js" "toUpper.js" "toString.js" "toSafeInteger.js" "toPlainObject.js" "toPath.js" "toPairsIn.js" "toPairs.js" "toNumber.js" "toLower.js" "toLength.js" "toJSON.js" "toIterator.js" "toInteger.js" "toFinite.js" "toArray.js" "times.js" "thru.js" "throttle.js" "templateSettings.js" "template.js" "tap.js" "takeWhile.js" "takeRightWhile.js" "takeRight.js" "take.js" "tail.js" "sumBy.js" "sum.js" "subtract.js" "stubTrue.js" "stubString.js" "stubObject.js" "stubFalse.js" "stubArray.js" "string.js" "startsWith.js" "startCase.js" "spread.js" "split.js" "sortedUniqBy.js" "sortedUniq.js" "sortedLastIndexOf.js" "sortedLastIndexBy.js" "sortedLastIndex.js" "sortedIndexOf.js" "sortedIndexBy.js" "sortedIndex.js" "sortBy.js" "some.js" "snakeCase.js" "slice.js" "size.js" "shuffle.js" "setWith.js" "set.js" "seq.js" "sampleSize.js" "sample.js" "round.js" "reverse.js" "result.js" "rest.js" "replace.js" "repeat.js" "remove.js" "reject.js" "reduceRight.js" "reduce.js" "rearg.js" "README.md" "rangeRight.js" "range.js" "random.js" "pullAt.js" "pullAllWith.js" "pullAllBy.js" "pullAll.js" "pull.js" "propertyOf.js" "property.js" "plant.js" "pickBy.js" "pick.js" "partition.js" "partialRight.js" "partial.js" "parseInt.js" "padStart.js" "padEnd.js" "pad.js" "package.json" "overSome.js" "overEvery.js" "overArgs.js" "over.js" "orderBy.js" "once.js" "omitBy.js" "omit.js" "object.js" "number.js" "nthArg.js" "nth.js" "now.js" "noop.js" "next.js" "negate.js" "multiply.js" "mixin.js" "minBy.js" "min.js" "methodOf.js" "method.js" "mergeWith.js" "merge.js" "memoize.js" "meanBy.js" "mean.js" "maxBy.js" "max.js" "math.js" "matchesProperty.js" "matches.js" "mapValues.js" "mapKeys.js" "map.js" "lte.js" "lt.js" "lowerFirst.js" "lowerCase.js" "lodash.min.js" "lodash.js" "LICENSE" "lastIndexOf.js" "last.js" "lang.js" "keysIn.js" "keys.js" "keyBy.js" "kebabCase.js" "join.js" "iteratee.js" "isWeakSet.js" "isWeakMap.js" "isUndefined.js" "isTypedArray.js" "isSymbol.js" "isString.js" "isSet.js" "isSafeInteger.js" "isRegExp.js" "isPlainObject.js" "isObjectLike.js" "isObject.js" "isNumber.js" "isNull.js" "isNil.js" "isNative.js" "isNaN.js" "isMatchWith.js" "isMatch.js" "isMap.js" "isLength.js" "isInteger.js" "isFunction.js" "isFinite.js" "isError.js" "isEqualWith.js" "isEqual.js" "isEmpty.js" "isElement.js" "isDate.js" "isBuffer.js" "isBoolean.js" "isArrayLikeObject.js" "isArrayLike.js" "isArrayBuffer.js" "isArray.js" "isArguments.js" "invokeMap.js" "invoke.js" "invertBy.js" "invert.js" "intersectionWith.js" "intersectionBy.js" "intersection.js" "inRange.js" "initial.js" "indexOf.js" "index.js" "includes.js" "identity.js" "head.js" "hasIn.js" "has.js" "gte.js" "gt.js" "groupBy.js" "get.js" "functionsIn.js" "functions.js" "function.js" "fromPairs.js" "fp.js" "fp/" "forOwnRight.js" "forOwn.js" "forInRight.js" "forIn.js" "forEachRight.js" "forEach.js" "flowRight.js" "flow.js" "floor.js" "flip.js" "flattenDepth.js" "flattenDeep.js" "flatten.js" "flatMapDepth.js" "flatMapDeep.js" "flatMap.js" "first.js" "findLastKey.js" "findLastIndex.js" "findLast.js" "findKey.js" "findIndex.js" "find.js" "filter.js" "fill.js" "extendWith.js" "extend.js" "every.js" "escapeRegExp.js" "escape.js" "eq.js" "entriesIn.js" "entries.js" "endsWith.js" "eachRight.js" "each.js" "dropWhile.js" "dropRightWhile.js" "dropRight.js" "drop.js" "divide.js" "differenceWith.js" "differenceBy.js" "difference.js" "delay.js" "defer.js" "defaultTo.js" "defaultsDeep.js" "defaults.js" "deburr.js" "debounce.js" "date.js" "curryRight.js" "curry.js" "create.js" "countBy.js" "core.min.js" "core.js" "constant.js" "conformsTo.js" "conforms.js" "cond.js" "concat.js" "compact.js" "commit.js" "collection.js" "cloneWith.js" "cloneDeepWith.js" "cloneDeep.js" "clone.js" "clamp.js" "chunk.js" "chain.js" "ceil.js" "castArray.js" "capitalize.js" "camelCase.js" "bindKey.js" "bindAll.js" "bind.js" "before.js" "attempt.js" "at.js" "assignWith.js" "assignInWith.js" "assignIn.js" "assign.js" "ary.js" "array.js" "after.js" "add.js" "_wrapperClone.js" "_WeakMap.js" "_updateWrapDetails.js" "_unicodeWords.js" "_unicodeToArray.js" "_unicodeSize.js" "_unescapeHtmlChar.js" "_Uint8Array.js" "_toSource.js" "_toKey.js" "_Symbol.js" "_stringToPath.js" "_stringToArray.js" "_stringSize.js" "_strictLastIndexOf.js" "_strictIndexOf.js" "_stackSet.js" "_stackHas.js" "_stackGet.js" "_stackDelete.js" "_stackClear.js" "_Stack.js" "_shuffleSelf.js" "_shortOut.js" "_setWrapToString.js" "_setToString.js" "_setToPairs.js" "_setToArray.js" "_setData.js" "_setCacheHas.js" "_setCacheAdd.js" "_SetCache.js" "_Set.js" "_root.js" "_replaceHolders.js" "_reorder.js" "_reInterpolate.js" "_reEvaluate.js" "_reEscape.js" "_realNames.js" "_Promise.js" "_parent.js" "_overRest.js" "_overArg.js" "_objectToString.js" "_nodeUtil.js" "_nativeKeysIn.js" "_nativeKeys.js" "_nativeCreate.js" "_metaMap.js" "_mergeData.js" "_memoizeCapped.js" "_matchesStrictComparable.js" "_mapToArray.js" "_mapCacheSet.js" "_mapCacheHas.js" "_mapCacheGet.js" "_mapCacheDelete.js" "_mapCacheClear.js" "_MapCache.js" "_Map.js" "_LodashWrapper.js" "_listCacheSet.js" "_listCacheHas.js" "_listCacheGet.js" "_listCacheDelete.js" "_listCacheClear.js" "_ListCache.js" "_LazyWrapper.js" "_lazyValue.js" "_lazyReverse.js" "_lazyClone.js" "_iteratorToArray.js" "_isStrictComparable.js" "_isPrototype.js" "_isMasked.js" "_isMaskable.js" "_isLaziable.js" "_isKeyable.js" "_isKey.js" "_isIterateeCall.js" "_isIndex.js" "_isFlattenable.js" "_insertWrapDetails.js" "_initCloneObject.js" "_initCloneByTag.js" "_initCloneArray.js" "_hasUnicodeWord.js" "_hasUnicode.js" "_hasPath.js" "_hashSet.js" "_hashHas.js" "_hashGet.js" "_hashDelete.js" "_hashClear.js" "_Hash.js" "_getWrapDetails.js" "_getView.js" "_getValue.js" "_getTag.js" "_getSymbolsIn.js" "_getSymbols.js" "_getRawTag.js" "_getPrototype.js" "_getNative.js" "_getMatchData.js" "_getMapData.js" "_getHolder.js" "_getFuncName.js" "_getData.js" "_getAllKeysIn.js" "_getAllKeys.js" "_freeGlobal.js" "_flatRest.js" "_escapeStringChar.js" "_escapeHtmlChar.js" "_equalObjects.js" "_equalByTag.js" "_equalArrays.js" "_defineProperty.js" "_deburrLetter.js" "_DataView.js" "_customOmitClone.js" "_customDefaultsMerge.js" "_customDefaultsAssignIn.js" "_createWrap.js" "_createToPairs.js" "_createSet.js" "_createRound.js" "_createRelationalOperation.js" "_createRecurry.js" "_createRange.js" "_createPartial.js" "_createPadding.js" "_createOver.js" "_createMathOperation.js" "_createInverter.js" "_createHybrid.js" "_createFlow.js" "_createFind.js" "_createCurry.js" "_createCtor.js" "_createCompounder.js" "_createCaseFirst.js" "_createBind.js" "_createBaseFor.js" "_createBaseEach.js" "_createAssigner.js" "_createAggregator.js" "_countHolders.js" "_coreJsData.js" "_copySymbolsIn.js" "_copySymbols.js" "_copyObject.js" "_copyArray.js" "_composeArgsRight.js" "_composeArgs.js" "_compareMultiple.js" "_compareAscending.js" "_cloneTypedArray.js" "_cloneSymbol.js" "_cloneSet.js" "_cloneRegExp.js" "_cloneMap.js" "_cloneDataView.js" "_cloneBuffer.js" "_cloneArrayBuffer.js" "_charsStartIndex.js" "_charsEndIndex.js" "_castSlice.js" "_castRest.js" "_castPath.js" "_castFunction.js" "_castArrayLikeObject.js" "_cacheHas.js" "_baseZipObject.js" "_baseXor.js" "_baseWrapperValue.js" "_baseWhile.js" "_baseValues.js" "_baseUpdate.js" "_baseUnset.js" "_baseUniq.js" "_baseUnary.js" "_baseToString.js" "_baseToPairs.js" "_baseToNumber.js" "_baseTimes.js" "_baseSum.js" "_baseSortedUniq.js" "_baseSortedIndexBy.js" "_baseSortedIndex.js" "_baseSortBy.js" "_baseSome.js" "_baseSlice.js" "_baseShuffle.js" "_baseSetToString.js" "_baseSetData.js" "_baseSet.js" "_baseSampleSize.js" "_baseSample.js" "_baseRest.js" "_baseRepeat.js" "_baseReduce.js" "_baseRange.js" "_baseRandom.js" "_basePullAt.js" "_basePullAll.js" "_basePropertyOf.js" "_basePropertyDeep.js" "_baseProperty.js" "_basePickBy.js" "_basePick.js" "_baseOrderBy.js" "_baseNth.js" "_baseMergeDeep.js" "_baseMerge.js" "_baseMean.js" "_baseMatchesProperty.js" "_baseMatches.js" "_baseMap.js" "_baseLt.js" "_baseLodash.js" "_baseKeysIn.js" "_baseKeys.js" "_baseIteratee.js" "_baseIsTypedArray.js" "_baseIsSet.js" "_baseIsRegExp.js" "_baseIsNative.js" "_baseIsNaN.js" "_baseIsMatch.js" "_baseIsMap.js" "_baseIsEqualDeep.js" "_baseIsEqual.js" "_baseIsDate.js" "_baseIsArrayBuffer.js" "_baseIsArguments.js" "_baseInvoke.js" "_baseInverter.js" "_baseIntersection.js" "_baseInRange.js" "_baseIndexOfWith.js" "_baseIndexOf.js" "_baseHasIn.js" "_baseHas.js" "_baseGt.js" "_baseGetTag.js" "_baseGetAllKeys.js" "_baseGet.js" "_baseFunctions.js" "_baseForRight.js" "_baseForOwnRight.js" "_baseForOwn.js" "_baseFor.js" "_baseFlatten.js" "_baseFindKey.js" "_baseFindIndex.js" "_baseFilter.js" "_baseFill.js" "_baseExtremum.js" "_baseEvery.js" "_baseEachRight.js" "_baseEach.js" "_baseDifference.js" "_baseDelay.js" "_baseCreate.js" "_baseConformsTo.js" "_baseConforms.js" "_baseClone.js" "_baseClamp.js" "_baseAt.js" "_baseAssignValue.js" "_baseAssignIn.js" "_baseAssign.js" "_baseAggregator.js" "_assocIndexOf.js" "_assignValue.js" "_assignMergeValue.js" "_asciiWords.js" "_asciiToArray.js" "_asciiSize.js" "_arraySome.js" "_arrayShuffle.js" "_arraySampleSize.js" "_arraySample.js" "_arrayReduceRight.js" "_arrayReduce.js" "_arrayPush.js" "_arrayMap.js" "_arrayLikeKeys.js" "_arrayIncludesWith.js" "_arrayIncludes.js" "_arrayFilter.js" "_arrayEvery.js" "_arrayEachRight.js" "_arrayEach.js" "_arrayAggregator.js" "_apply.js" "_addSetEntry.js" "_addMapEntry.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/bluebird/" (22833 26760 0 0) "README.md" "package.json" "LICENSE" "js/" "changelog.md" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/washington/" (22907 13655 0 0) "views/" "tools/" "todo" "test.tap" "test/" "server.js" "seeders/" "README.md" "public/" "package.json" "org/" "node_modules/" "Makefile" "log/" "lib/" "index.js" "handlers/" "docs/" "diffs" "db.version" "csvfiles/" "coverage/" "config/" "bin/" "api.js" ".gitignore" ".github/" ".git/" ".eslintrc.js" ".eslintignore" ".editorconfig" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/fixtures/specs/" (22921 62016 0 0) "upstream-by-port.js" "upstream-by-name.js" "mock-spec.js" "index.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/bin/" (22921 61971 0 0) "validate-spec" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/fixtures/" (22921 62016 0 0) "tcp-test.js" "specs/" "log-spy.js" "index.js" "idFormatByPort.js" "idFormatByName.js" "idFormat.js" "echo-tcp-client.js" "authMessages.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/node_modules/parser/" (22921 60842 0 0) "test/" "README.md" "package.json" "node_modules/" "lib/" "index.js" ".npmignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/common/" (22921 53801 0 0) "upstream-TCP.js" "update-transaction.js" "index.js" "get-decision.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/parser/test/" (22921 60772 0 0) "parser-spec.js" "fixtures/" "benchmark.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/parser/test/fixtures/" (22921 60764 0 0) "visa-mock.js" "UPATM200.js" "test-messages.json" "tecban-mock.js" "nexus-mock.js" "mock-spec.js" "fisb-brazil-identifyFormat.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/" (22921 63121 0 0) "test/" "README.md" "package.json" "node_modules/" "lib/" "index.js" "bin/" ".gitignore" ".git/" ".eslintrc.js" ".eslintignore" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/" (22921 62547 0 0) "tools/" "test/" "specs/" "README.md" "package.json" "node_modules/" "Makefile" "LOGS.md" "log/" "lib/" "index.js" "handlers/" "docs/" "config/" "common/" ".gitignore" ".git/" ".eslintrc.js" ".eslintignore" ".buildignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/staq/reducers/" (22921 46234 0 0) "into.js" "forEach.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/parser/" (22921 61230 0 0) "test/" "README.md" "package.json" "node_modules/" "lib/" "index.js" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/lib/" (22685 65428 0 0) "index.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/handlers/" (22921 62312 0 0) "index.js" "idFormat.js" "example800.js" "example200.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/unit/" (22921 62016 0 0) "tp-10628-format-by-port.test.js" "tcp-client.test.js" "spec.test.js" "router.test.js" "request.test.js" "integration.test.js" "http-client.test.js" "examples.test.js" "error-handling.test.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/lib/" (22921 62016 0 0) "Worker.js" "TCP-Server.js" "Router.js" "Request.js" "log-serializers.js" "Integration-Point.js" "index.js" "HTTP-Client.js" "errors.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/node_modules/" (22907 24671 0 0) "yargs/" "uuid/" "through2/" "sinon/" "serializer/" "request-promise/" "processor-specs/" "parser/" "nock/" "mocha/" "framer/" "flow-bin/" "eslint/" "chalk/" "chai/" "bunyan/" "bluebird/" "benchmark/" "assert-plus/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/benchmark/" (22921 49073 0 0) "benchmark.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/specs/" (22920 56312 0 0) "index.js" "example.js" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/benchmark/firehose/lib/" (22920 56302 0 0) "up-actual.log" "templates.js" "stan-generator.js" "spec.js" "request-generator.js" "generate-pair.js" "firehose.js" "card-generator.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/specs/" (22913 3000 0 0) "paytrue.js" "index.js" "example.js" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/benchmark/firehose/" (22920 55590 0 0) "README.md" "package.json" "output/" "npm-debug.log" "node_modules/" "me.log" "lib/" "index.js" "fp-benchmark-master-v2.1.0-build-0eccac4-20160701.tar.gz" ".gitignore" ".git/" ".buildignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/encoder-gateway/test/" (22893 3122 0 0) "unit/" "fixtures/" "benchmark/" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/fauxrm/test/" (22912 52684 0 0) "unit.test.js" "integration.test.js" "fixtures/" "debug/" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/bunyan/lib/" (22756 36840 0 0) "bunyan.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/bunyan/" (22833 26757 0 0) "TODO.md" "README.md" "package.json" "node_modules/" "Makefile" "LICENSE.txt" "lib/" "docs/" "CONTRIBUTING.md" "CHANGES.md" "bin/" "AUTHORS" ".travis.yml" ".npmignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/washington/node_modules/" (22898 30361 0 0) "yaeti/" "x-xss-protection/" "websocket/" "uuid/" "utils-merge/" "util-deprecate/" "unpipe/" "underscore/" "typedarray-to-buffer/" "testing/" "tedious/" "supertest/" "string_decoder/" "stdio/" "statuses/" "sprintf/" "sinon/" "serve-static/" "sequelize/" "semver/" "safe-buffer/" "rewire/" "restify-plugins/" "restify-errors/" "restify-cookies/" "restify-clients/" "restify/" "request/" "regenerator-runtime/" "referrer-policy/" "readable-stream/" "prototypes/" "process-nextick-args/" "platform/" "parseurl/" "on-finished/" "nunjucks/" "nub/" "nodemailer/" "node-ask/" "nock/" "nocache/" "nan/" "mysql/" "ms/" "moment-timezone/" "moment/" "mocha/" "log/" "lodash.reduce/" "lodash/" "loadtest/" "jsonwebtoken/" "istanbul/" "iso-639-1/" "iso-3166/" "isarray/" "is-typedarray/" "inherits/" "ienoopen/" "iconv-lite/" "http-proxy/" "hsts/" "hpkp/" "hide-powered-by/" "helmet-csp/" "helmet/" "gashlycrumb/" "frameguard/" "first-match/" "finalhandler/" "express-validator/" "express-unless/" "expect-ct/" "exceljs/" "eslint/" "escape-html/" "encodeurl/" "ee-first/" "dont-sniff-mimetype/" "dns-prefetch-control/" "dns-lookup-all/" "dev-null/" "deprecate/" "deep-equal/" "debug/" "data-models/" "dashify/" "dasherize/" "currency-codes/" "core-util-is/" "core-js/" "content-security-policy-builder/" "connect/" "colors/" "cli-table/" "circuit-breaker/" "chokidar/" "chai-subset/" "chai-moment/" "chai/" "camelize/" "bunyan/" "bluebird/" "bl/" "big-number/" "batch-cancel/" "babel-runtime/" "aws-sdk/" "assert-plus/" "agentkeepalive/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/layz/" (22919 29491 0 0) "types/" "test/" "src/" "package.json" "node_modules/" "next-straight.js" "neat.js" "LI.js" "dist/" "composition.js" ".gitignore" ".git/" ".flowconfig" ".eslintrc.js" ".eslintignore" ".DS_Store" ".babelrc" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/layz/src/" (22919 19534 0 0) "SomeOtherWayReducing.js" "Someotherway.test.js" "SomeOtherWay.js" "QuickLazyIterable.js" "next-types.js" "loop.js" "LazyIterableClass.js" "example.js" "#QuickLazyIterable.js#" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/layz/dist/" (22919 8790 0 0) "trash.js" "QuickLazyIterable.js" "next-types.js" "loop.js" "LazyIterableClass.js" "example.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/config/" (22915 30247 0 0) "unittest.js" "production.js" "integrationtest.js" "index.js" "development.js" "defaults.js" "deep-copy.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/test/helpers/" (22915 30307 0 0) "redis-integration.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/" (22915 34163 0 0) "tools/" "TODO/" "test/" "server.js" "README.md" "package.json" "oracle_env.sh" "node_modules/" "Makefile" "log/" "lib/" "index.js" "handlers/" "fix-7-13.sql" "dump.rdb" "docs/" "de-run.sh" "db.version" "coverage/" "config/" "api.js" ".gitignore" ".git/" ".eslintrc.js" ".eslintrc" ".eslintignore" ".elasticbeanstalk/" ".DS_Store" ".buildignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/lib/" (22915 32365 0 0) "test_rsa.pub" "test_rsa" "tenant-map.js" "sequelize.js" "oracledb.js" "log-serializers.js" "errors.js" "db.js" "country-conversion.js" "cache.js" "authorize-transaction.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/test/oracle/" (22915 32048 0 0) "integration.test.js" "fixtures.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/anagrams/" (22915 44064 0 0) "wordsEn.txt" "README.md" "newwords.txt" "anagrams.py" "50kwords.txt" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/superset/" (22548 60935 0 0) "index.js" "enum.js" "countries.js" "bitmap.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/my-lazy/" (22913 53749 0 0) "todo.org" "timers.txt" "test/" "src/" "same-tick.js" "package.json" "node_modules/" "hickey-reduce.js" "fart.txt" "ee.js" "dist/" "bench.js" ".gitignore" ".git/" ".eslintrc.js" ".eslintignore" ".DS_Store" ".babelrc" "#timers.txt#" "../" "./")
+
+ ("/Users/firstperformance/Documents/personaldev/lazy-sequence/" (22913 53749 0 0) "package.json" "node_modules/" "index.js" "gens.js" "example.js" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/specs/" (22915 26074 0 0) "VIA.js" "TBK.js" "RBC.js" "ON2.js" "MCI.js" "index.js" "B24.js" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/" (22916 39051 0 0) "tools/" "test/" "specs/" "run.js" "README.md" "package.json" "old-index.js" "node_modules/" "Makefile" "LOGS.md" "log/" "lib/" "index.js" "handlers/" "docs/" "debug/" "config/" "common/" ".npmignore" ".gitignore" ".git/" ".eslintrc.js" ".eslintignore" ".buildignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/handlers/" (22916 39283 0 0) "index.js" "idFormat.js" "example800.js" "example200.js" "auth-response.js" "auth-request.js" "auth-advice.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/test/buffers/" (22915 26074 0 0) "viaECOMRequest.js" "tbkECOMRequest.js" "rbcATMRequest.js" "on2ATMRequest.js" "mciECOMRequest.js" "index.js" "b24ATMRequest.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/test/" (22915 26074 0 0) "parsing.test.js" "flow.test.js" "fixtures/" "buffers/" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/nexus-eg/config/" (22916 38731 0 0) "unittest.js" "production.js" "pilot.js" "index.js" "development.js" "defaults.js" "deep-copy.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/eg-boilerplate/config/" (22898 12824 0 0) "unittest.js" "production.js" "index.js" "development.js" "defaults.js" "deep-copy.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/org/" (22915 33904 0 0) "zenith/" "unified-payments/" "todo.org_archive" "todo.org" "tasks.org" "regions/" "personal/" "notes.org" "nexus/" "ltxpng/" "internal/" "fisb/" "fisa/" "falabella/" "evertec/" "ecobank/" "directors/" ".DS_Store" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/handlers/" (22915 29239 0 0) "validate-post-limit-controls.js" "validate-post-decision.js" "update-limit-controls.js" "update-limit-control.js" "transactions.js" "index.js" "decision.js" "create-limit-control.js" "check-if-synced.js" "add-transactions-to-scope.js" "add-card-settings-to-scope.js" "add-bin-to-scope.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/regions-eg/handlers/" (22913 59102 0 0) "network-management.js" "index.js" "idFormat.js" "auth-reversal.js" "auth-request.js" "auth-advice.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/test/unit/" (22915 28244 0 0) "update-transaction-spec.test.js" "update-limit-controls.test.js" "sync-check-post.test.js" "limit-controls-put.test.js" "limit-controls-post.test.js" "decision-spec.test.js" "database.test.js" "country-helper.test.js" "cache.test.js" "authorize-transaction.test.js" "add-transactions-to-scope.test.js" "add-card-settings-to-scope.test.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/test/" (22915 27131 0 0) "unit/" "oracle/" "helpers/" "fixtures/" ".eslintrc.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/common/" (22913 2969 0 0) "upstream-TCP.js" "update-transaction.js" "index.js" "get-decision.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/flbl-eg/" (22915 14798 0 0) "tools/" "test/" "specs/" "README.md" "package.json" "org/" "node_modules/" "Makefile" "LOGS.md" "log/" "lib/" "index.js" "handlers/" "docs/" "config/" "common/" ".gitignore" ".git/" ".eslintrc.js" ".eslintignore" ".buildignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/lib/dialects/mssql/" (22906 24120 0 0) "resource-lock.js" "query.js" "query-interface.js" "query-generator.js" "index.js" "data-types.js" "connection-manager.js" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/lib/dialects/" (22906 24121 0 0) "sqlite/" "postgres/" "parserStore.js" "mysql/" "mssql/" "mariadb/" "abstract/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/lib/" (22906 24121 0 0) "utils.js" "utils/" "transaction.js" "sql-string.js" "sequelize.js" "query-types.js" "query-interface.js" "promise.js" "plugins/" "model.js" "model-manager.js" "model/" "instance.js" "instance-validator.js" "hooks.js" "errors.js" "dialects/" "deferrable.js" "data-types.js" "associations/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/sequelize/" (22906 24121 0 0) "test-app.js" "sscce_template.js" "README.md" "package.json" "mkdocs.yml" "LICENSE" "lib/" "index.js" "Dockerfile" "docker-compose.yml" "CONTRIBUTING.md" "CONTRIBUTING.DOCS.md" "codecov.yml" "changelog.md" "appveyor.yml" "appveyor-setup.ps1" ".travis.yml" ".npmignore" ".jshintrc" ".idea/" ".gitmodules" ".github/" ".editorconfig" ".dockerignore" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/tedious/" (22906 24121 0 0) "README.md" "package.json" "LICENSE" "lib/" "benchmarks/" "appveyor.yml" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/decision-engine/node_modules/" (22914 12300 0 0) "yargs/" "yallist/" "xtend/" "write/" "wrappy/" "wordwrap/" "wkx/" "window-size/" "which/" "wbuf/" "verror/" "vasync/" "validator/" "uuid/" "util-deprecate/" "util/" "user-home/" "underscore/" "uglify-to-browserify/" "uglify-js/" "typedarray/" "type-detect/" "type-check/" "tunnel-agent/" "tryit/" "toposort-class/" "toposort/" "to-iso-string/" "through/" "text-table/" "terraformer-wkt-parser/" "terraformer/" "tedious/" "table/" "supports-color/" "supertest/" "superagent/" "strip-json-comments/" "strip-bom/" "strip-ansi/" "string_decoder/" "string-width/" "stream-transform/" "sqlstring/" "sprintf-js/" "sprintf/" "spdy-transport/" "spdy/" "source-map/" "slice-ansi/" "sinon/" "sigmund/" "shimmer/" "shelljs/" "shebang-regex/" "shebang-command/" "sequelize/" "semver/" "select-hose/" "samsam/" "safe-json-stringify/" "safe-buffer/" "rx-lite/" "run-async/" "rimraf/" "right-align/" "rewire/" "retry-as-promised/" "restore-cursor/" "restify/" "resolve-from/" "resolve/" "require-uncached/" "repeat-string/" "regenerator-runtime/" "reduce-component/" "redis-server/" "redis-parser/" "redis-commands/" "redis/" "rechoir/" "readline2/" "readable-stream/" "qs/" "pseudomap/" "propagate/" "promise-queue/" "progress/" "process-nextick-args/" "prelude-ls/" "precond/" "pluralize/" "pinkie-promise/" "pinkie/" "pify/" "path-parse/" "path-is-inside/" "path-is-absolute/" "os-homedir/" "oracledb/" "optionator/" "optimist/" "onetime/" "once/" "obuf/" "object-assign/" "number-is-nan/" "nopt/" "nock/" "negotiator/" "ncp/" "natural-compare/" "nan/" "mysql/" "mv/" "mute-stream/" "ms/" "moment-timezone/" "moment/" "mocha/" "mkdirp/" "minimist/" "minimatch/" "minimalistic-assert/" "mime-types/" "mime-db/" "mime/" "methods/" "lru-cache/" "longest/" "lolex/" "lodash/" "levn/" "lazy-cache/" "kind-of/" "keep-alive-agent/" "jsonpointer/" "jsonify/" "json-stringify-safe/" "json-stable-stringify/" "js-yaml/" "js-tokens/" "jade/" "istanbul/" "isexe/" "isarray/" "is-windows/" "is-resolvable/" "is-property/" "is-path-inside/" "is-path-in-cwd/" "is-path-cwd/" "is-my-json-valid/" "is-fullwidth-code-point/" "is-buffer/" "interpret/" "inquirer/" "inherits/" "inflight/" "inflection/" "imurmurhash/" "ignore/" "iconv-lite/" "http-signature/" "http-deceiver/" "hpack.js/" "has-flag/" "has-ansi/" "handlebars/" "handle-thing/" "growl/" "graceful-fs/" "globby/" "globals/" "glob/" "generic-pool/" "generate-object-property/" "generate-function/" "gashlycrumb/" "fs.realpath/" "formidable/" "formatio/" "form-data/" "flat-cache/" "file-entry-cache/" "figures/" "fauxrm/" "fast-levenshtein/" "fakeredis/" "extsprintf/" "extend/" "express-validator/" "exit-hook/" "event-emitter/" "esutils/" "estraverse/" "esrecurse/" "esquery/" "esprima/" "espree/" "eslint/" "escope/" "escodegen/" "escape-string-regexp/" "escape-regexp-component/" "es6-weak-map/" "es6-symbol/" "es6-set/" "es6-map/" "es6-iterator/" "es5-ext/" "dtrace-provider/" "double-ended-queue/" "dottie/" "doctrine/" "dns-lookup-all/" "diff/" "dev-null/" "detect-node/" "deprecate/" "depd/" "delayed-stream/" "del/" "deep-is/" "deep-equal/" "deep-eql/" "decamelize/" "debug/" "data-models/" "d/" "ctype/" "csv-stringify/" "csv-parse/" "csv-generate/" "csv/" "cross-spawn/" "cross-env/" "cron/" "core-util-is/" "core-js/" "cookiejar/" "concat-stream/" "concat-map/" "component-emitter/" "commander/" "combined-stream/" "code-point-at/" "co/" "cliui/" "cli-width/" "cli-cursor/" "circular-json/" "chalk/" "chai-things/" "chai/" "center-align/" "camelcase/" "callsites/" "caller-path/" "bunyan/" "brace-expansion/" "bluebird/" "bl/" "bignumber.js/" "big-number/" "balanced-match/" "backoff/" "babel-runtime/" "babel-code-frame/" "async/" "assertion-error/" "assert-plus/" "asn1/" "arrify/" "array-uniq/" "array-union/" "argparse/" "ansi-styles/" "ansi-regex/" "ansi-escapes/" "amdefine/" "align-text/" "ajv-keywords/" "ajv/" "acorn-jsx/" "acorn/" "abbrev/" "@types/" ".bin/" "../" "./")
+
+ ("/Users/firstperformance/Documents/fpdev/" (22914 19297 0 0) "yayoss/" "xaa" "washington/" "unified-payments/" "tweedle-dum/" "trash/" "tmp/" "tests/" "testing-tools/" "Technical Documents/" "superset/" "stub-server/" "spec-pdfs/" "shared-cache/" "server/" "serializer/" "sequelize/" "sandbox/" "retry/" "regions-eg/" "qa-dev/" "pushmessage.js" "processor-specs/" "ppooo/" "poo/" "plugins/" "parser/" "org/" "node-oracledb/" "node-central/" "nock/" "nexus-eg/" "migration-docs/" "localization/" "iso3166-1/" "init/" "health-monitor/" "gitin/" "framer/" "fp-crypto/" "fp-bot/" "forks/" "flbl-eg/" "fisb/" "firehose/" "fauxrm/" "evertec/" "eslint/" "encoder-gateway/" "eg-harness/" "eg-boilerplate/" "echo-server/" "dynamic-debug/" "dump.rdb" "dist/" "dev-handbook/" "demo/" "decision-engine/" "Debug/" "de-proxy/" "ddebuglog/" "dbnonce/" "data-models/" "data-generation/" "cron-jobs/" "corecard/" "circuit-breaker/" "central/" "build/" "boilerplate/" "body2.json" "body.json" "bitstring/" "bitmap/" "benchmark/" "batch-cancel/" "auto-parse/" "architecture/" "api-docs/" "alert-ec2/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

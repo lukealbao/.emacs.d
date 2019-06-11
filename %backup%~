@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Luke Albao
+	email = luke.albao@firstperformance.com
+#	email = luke.albao@firstperformance.com
+[alias]
+        lg = log --oneline --graph --decorate
+        fetchall = ! git remote -v | cut -d $'\t' -f 1 | uniq | xargs -I {} git fetch {}
+        recap = ! git log --all --oneline --no-merges --author="$(git config --get user.email)"
+        today = ! git log --all --oneline --no-merges --since="00:00:00" --author="$(git config --get user.email)"
+[github]
+	user = lukealbao

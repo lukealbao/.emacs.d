@@ -1,0 +1,8 @@
+(
+ (:id "sha1:fb978c85c0cf3c9d62d497157827b311f7197e87" :fingerprint "sha1:40:a0:20:06:d8:2c:2c:d0:46:72:4c:21:be:db:00:0b:41:4a:ec:0e" :host "www.gnu.org:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:0d7618b9e2506506449d94ce2009105ff9733773" :fingerprint "sha1:54:1d:10:ca:8f:da:95:58:81:9d:d2:05:2f:62:2a:15:98:4c:ad:14" :host "emacs.stackexchange.com:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:b6a50f146916bd18036a1521d231f341b1438c02" :fingerprint "sha1:35:d8:e3:0a:1a:0c:e2:cd:81:27:7c:e0:6c:f0:25:75:1c:88:5c:62" :host "tuhdo.github.io:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:9fbdfc75cbe1be3e68209fd1bd6468d467cd6536" :fingerprint "sha1:a2:27:10:8e:ca:38:37:e4:57:45:a2:60:96:40:d5:23:24:c0:16:d7" :host "tools.ietf.org:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:41599a22b454f4031df2ac5b4d297af2580d5cda" :fingerprint "sha1:25:03:44:a7:e7:68:03:cf:e5:4c:d5:cb:2f:5d:00:9a:54:8d:ca:31" :host "danluu.com:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:26fb62ffb5f365c57a98e0464071d1790d3db2cd" :fingerprint "sha1:bf:63:7a:cc:f0:89:85:cf:4a:d5:ca:2a:cb:b5:18:6b:36:c1:1b:60" :host "emacs.cafe:443" :conditions (:insecure :unknown-ca :invalid))
+)

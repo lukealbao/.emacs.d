@@ -6,21 +6,32 @@
               '((expand-file-name "personal.org" personal-dir)
                 (expand-file-name "home.org" personal-dir)
                 (expand-file-name "org/todo.org" work-dir))))
+(setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
 
 ;; Multi-state todos
 (setq org-todo-keywords
       '((sequence "TODO" "FOLLOWUP" "|" "DONE" "WAITING")))
 
+;; Appearance
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
+;; I think this is too conflicting: (require 'org-beautify-theme)
+
+(require 'org-bullets)
+(add-hook 'org-mode-hook 'org-bullets-mode)
+
+;; Asana
+;; (add-hook 'org-mode-hook 'asana-mode)
+;; (setq asana-keymap-prefix "C-c C-a")
 
 ;; Latex
 (setq latex-bin-dir "/Library/TeX/texbin")
 (setq org-latex-create-formula-image-program
       'dvipng)
-(setenv "PATH" (getenv "PATH") latex-bin-dir)
+(setenv "PATH" (concat (getenv "PATH") ":" latex-bin-dir))
 (add-to-list 'exec-path latex-bin-dir)
 
 ;; Babel
+(require 'ob-sql)
 (require 'ob-js)
 (setq exec-path (append exec-path '("/usr/local/bin"))) ;; guile
 (setq geiser-default-implementation 'guile)
@@ -29,7 +40,10 @@
 (org-babel-do-load-languages
  'org-babel-load-languages
  '(
-   (sh . t)
+   (sql . t)
+   (C . t)
+   (emacs-lisp .t)
+   ;;(sh . t)
    (scheme . t)
    (python . t)
    (ruby . t)
@@ -60,8 +74,21 @@
       (org-open-link-from-string (buffer-substring (point-min) (point-max))))
     (goto-char start)))
 
+;; Capture Templates
+(setq org-default-notes-file (expand-file-name "org/todo.org" work-dir))
+(setq org-capture-templates
+ '(
+   ("t" "Task"
+    entry (file+headline (expand-file-name "org/todo.org" work-dir) "Inbox")
+        "** TODO %?\n  %i\n  %a")
+   ("c" "Clock"
+    entry
+    (file+headline (expand-file-name "org/todo.org" work-dir) "Today")
+    "** %(format-time-string \"%I:%M%p\"): %?\n  %i\n")
+   ))
 
 ;; Keystrokes
+(global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)

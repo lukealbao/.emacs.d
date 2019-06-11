@@ -4,7 +4,9 @@
       ;; import them wherever else you go.
       
       '(ac-js2
+       ac-cider
        skewer-mode
+       exec-path-from-shell
        simple-httpd
        avy
        flatui-theme

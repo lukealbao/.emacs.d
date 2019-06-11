@@ -1,0 +1,28 @@
+* Interface
+** Variables and functions
+We should have global variables set for =personal-dir= and =work-dir=. This list
+declares files which can be targets for capturing items.
+#+BEGIN_SRC elisp
+  (setf org-agenda-files
+        (mapcar 'eval
+                '((expand-file-name "personal.org" personal-dir)
+                  (expand-file-name "home.org" personal-dir)
+                  (expand-file-name "org/todo.org" work-dir))))
+#+END_SRC
+
+[[file:setup-org.el::(defun%20gh-link%20()][over here]]
+#+BEGIN_SRC elisp
+  (defun visit-link-in-buffer ()
+    "Force open-link to visit in an Emacs buffer in current frame."
+    (interactive)
+    (org-open-at-point (universal-argument)))
+#+END_SRC
+** Autofill
+#+BEGIN_SRC elisp
+  (add-hook 'org-mode-hook 'turn-on-auto-fill)
+#+END_SRC
+** Pretty bullets
+#+BEGIN_SRC elisp
+  (require 'org-bullets)
+  (add-hook 'org-mode-hook 'org-bullets-mode)
+#+END_SRC

@@ -1,0 +1,1 @@
+("~/Documents/lordemoji/" "~/Documents/nodemoji/" "~/.emacs.d/")
